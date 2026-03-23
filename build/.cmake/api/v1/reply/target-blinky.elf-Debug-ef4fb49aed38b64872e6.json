@@ -1,0 +1,370 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "blinky.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_EXECUTABLE",
+			"ADD_CUSTOM_COMMAND",
+			"ADD_DEFINITIONS",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wall -Wextra -ffunction-sections -fdata-sections -mlong-calls -std=gnu99 -fno-builtin -g -Og -DDEBUG"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "CKO_NONE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "K1921VK035"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "OSECLK_VAL=16000000"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "RETARGET"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "RETARGET_USE_UART"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "SYSCLK_PLL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/GCC/../app"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/GCC/../../../../platform/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/GCC/../../../../platform/Device/NIIET/K1921VK035/Include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/GCC/../../../../platform/retarget/Template/K1921VK035"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				11
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mthumb -mcpu=cortex-m4 -g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "CKO_NONE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "K1921VK035"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "OSECLK_VAL=16000000"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "RETARGET"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "RETARGET_USE_UART"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "SYSCLK_PLL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/GCC/../app"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/GCC/../../../../platform/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/GCC/../../../../platform/Device/NIIET/K1921VK035/Include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/GCC/../../../../platform/retarget/Template/K1921VK035"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				10
+			]
+		}
+	],
+	"id" : "blinky.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wall -Wextra -ffunction-sections -fdata-sections -mlong-calls -std=gnu99 -fno-builtin -g -Og -DDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mlong-calls -Wl,--gc-sections  -specs=nosys.specs -specs=nano.specs -lgcc -lc -u_printf_float -u_scanf_float -T C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/GCC/../../../../platform/Device/NIIET/K1921VK035/Source/GCC/K1921VK035.ld -Wl,-Map=C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/build/blinky.map -Wl,--print-memory-usage",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "blinky.elf",
+	"nameOnDisk" : "blinky.elf",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "blinky.elf::@6890427a1f51a3e7e1df"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				11
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				10
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/platform/Device/NIIET/K1921VK035/Source/system_K1921VK035.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/platform/retarget/Template/K1921VK035/retarget_conf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/app/arinc429.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/app/button.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/app/can.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/app/ds18b20.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/app/led.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/app/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/app/system_K1921VK035.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/app/uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/platform/Device/NIIET/K1921VK035/Source/GCC/startup_K1921VK035.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/platform/retarget/retarget.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

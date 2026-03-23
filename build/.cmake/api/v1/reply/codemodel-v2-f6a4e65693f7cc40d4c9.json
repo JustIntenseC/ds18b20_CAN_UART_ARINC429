@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "blinky",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "blinky.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-blinky.elf-Debug-ef4fb49aed38b64872e6.json",
+					"name" : "blinky.elf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flash::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flash-Debug-91c67d1d8466466e5739.json",
+					"name" : "flash",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/build",
+		"source" : "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/GCC"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

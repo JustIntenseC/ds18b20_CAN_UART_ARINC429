@@ -1,0 +1,75 @@
+// {
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "name": "Cortex Debug",
+//             "cwd": "${workspaceRoot}",
+//             "executable": "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/GCC/build/blinky.elf",  
+//             "request": "launch",
+//             "type": "cortex-debug",
+//             "servertype": "openocd",
+//             "runToEntryPoint": "main",
+//             "gdbPath":"C:/msys64/mingw32/bin/gdb-multiarch.exe",
+     
+//             "configFiles": [
+//                 "C:/Users/a.faizullin/Desktop/openocd-win/scripts/interface/stlink.cfg",
+//                 "C:/Users/a.faizullin/Desktop/openocd-win/scripts/target/k1921vk035.cfg"
+
+//             ],
+          
+//             "device": "K1921VK035",
+//             "svdFile": "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/tools/svd/K1921VK035.svd"
+//         },
+//     ]
+// }
+
+
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex Debug",
+            "device": "K1921VK035",
+            "cwd": "${workspaceFolder}",
+            "executable": "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/GCC/build/blinky.elf", 
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "openocd",
+            "gdbPath": "C:/msys64/mingw32/bin/gdb-multiarch",
+            "searchDir": [
+                // "C:/Users/root/workspace/ARM/K1921VK035/Voronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/tools/openocd/openocd-win/openocd-win/scripts"
+                "C:/Users/a.faizullin/Desktop/openocd-win/scripts"
+            ],
+            "configFiles": [
+                // "C:/Users/root/workspace/ARM/K1921VK035/Voronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/tools/openocd/openocd-snippets/k1921vk035/connect_stlink.cfg"
+                "C:/Users/a.faizullin/Desktop/openocd-win/scripts/board/connect_stlink.cfg"
+            ],
+            "svdFile": "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/tools/svd/K1921VK035.svd",
+            "showDevDebugOutput": "raw",
+            "preLaunchTask": "Build Project"
+        },
+         {
+        "name": "FLASH",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/GCC/build/blinky.hex",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": false,
+        "preLaunchTask": "Flash Project",
+        "presentation": {
+        "reveal": "never", 
+        "echo": false
+      }
+    
+        
+    }
+ 
+    ]
+}

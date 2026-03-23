@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "blinky",
+            "compilerPath": "C:/msys64/mingw64/bin/arm-none-eabi-gcc.exe",
+            "includePath": [
+                "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/blinky//CMSIS/Core/Include/**",
+                "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/blinky/CMSIS/Core/Include/**",
+                "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/blinky/Retarget/**",
+                "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/blinky/bsp/NIIET-BB-K1921VK035",
+                "C:/Users/a.faizullin/Desktop/PrimeriVoronezh/blinky//CMSIS/Device/Include"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

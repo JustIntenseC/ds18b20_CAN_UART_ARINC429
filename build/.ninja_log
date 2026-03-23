@@ -1,0 +1,16 @@
+# ninja log v7
+4	366	7923329051581270	CMakeFiles/blinky.elf.dir/89453849d6d115cef422537725914b7b/Device/NIIET/K1921VK035/Source/system_K1921VK035.c.obj	4da77b05fc429abb
+14	398	7923329051730868	CMakeFiles/blinky.elf.dir/89453849d6d115cef422537725914b7b/retarget/Template/K1921VK035/retarget_conf.c.obj	8a5541638f4924a2
+29	458	7923329051839925	CMakeFiles/blinky.elf.dir/665cb2cdd5c880f78f367d28651725ea/projects/NIIET-BB-K1921VK035/blinky/app/button.c.obj	54373f61909bcca2
+57	423	7931090229494716	CMakeFiles/blinky.elf.dir/665cb2cdd5c880f78f367d28651725ea/projects/NIIET-BB-K1921VK035/blinky/app/led.c.obj	a2881734664f4008
+25	375	7931090229188675	CMakeFiles/blinky.elf.dir/665cb2cdd5c880f78f367d28651725ea/projects/NIIET-BB-K1921VK035/blinky/app/ds18b20.c.obj	a8c159d2385aa537
+402	710	7923329055561094	CMakeFiles/blinky.elf.dir/99ca56b1d2d790d692bd11fb324f63ef/NIIET-BB-K1921VK035/blinky/app/system_K1921VK035.c.obj	6f94dbb6e77df0f1
+479	720	7923329056337983	CMakeFiles/blinky.elf.dir/7be9e89345f91d1c34828d88d787f678/NIIET/K1921VK035/Source/GCC/startup_K1921VK035.S.obj	63d2af01b70820ed
+15	383	7931090229092194	CMakeFiles/blinky.elf.dir/665cb2cdd5c880f78f367d28651725ea/projects/NIIET-BB-K1921VK035/blinky/app/can.c.obj	d74c8471de2c6dd5
+4	177	7954479010385892	CMakeFiles/blinky.elf.dir/665cb2cdd5c880f78f367d28651725ea/projects/NIIET-BB-K1921VK035/blinky/app/main.c.obj	242bbcdf08474e09
+108	471	7931090230153256	CMakeFiles/blinky.elf.dir/665cb2cdd5c880f78f367d28651725ea/projects/NIIET-BB-K1921VK035/blinky/app/uart.c.obj	1db8fceaa75cc02d
+520	935	7923329057413856	CMakeFiles/blinky.elf.dir/665cb2cdd5c880f78f367d28651725ea/platform/retarget/retarget.c.obj	9fc337de656daacf
+180	2696	7954479012143120	blinky.elf	61ad99c0f41a9fe6
+5	1683	7954479051349617	CMakeFiles/flash	66b9c1c42b3e1709
+5	1683	7954479051349617	C:/Users/a.faizullin/Desktop/PrimeriVoronezh/K1921BK035/niietcm4-k1921vkx_sdk-45893dd9ab5d/projects/NIIET-BB-K1921VK035/blinky/build/CMakeFiles/flash	66b9c1c42b3e1709
+9	211	7954385064555754	CMakeFiles/blinky.elf.dir/665cb2cdd5c880f78f367d28651725ea/projects/NIIET-BB-K1921VK035/blinky/app/arinc429.c.obj	bcdb4a08334a05f0
